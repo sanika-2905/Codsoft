@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamaBrew - Premium Craft Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>Sama<span>Brew</span></h2>
+        </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#roasts">The Collection</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-card">
+                <span class="card-badge">Est. 2026</span>
+                <h1>Sourced from Earth,<br><span class="italic-title">Roasted for the Soul.</span></h1>
+                <div class="luxury-divider"></div>
+                <p>An exquisite collection of single-origin organic arabica beans, meticulously shade-grown under native forest canopies. Slow drum-roasted to reveal sophisticated flavor profiles.</p>
+                <div class="hero-actions">
+                    <a href="#roasts" class="btn-luxury">Explore Roasts</a>
+                    <a href="#story" class="btn-text">Learn Our Process →</a>
+                </div>
+            </div>
+            <div class="hero-image-frame">
+                <div class="blob-accent"></div>
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600" alt="Exquisite coffee brewing pour-over" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="details-section" id="story">
+        <div class="details-container">
+            <div class="details-image-frame">
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&q=80&w=500" alt="Artisan minimal coffee packaging mock-up" class="split-img">
+            </div>
+            <div class="details-text">
+                <span class="section-tag">Traceable Origins</span>
+                <h2>The Art of the Slow Roast</h2>
+                <p>We honor the native ecosystems that yield our beans. By supporting biodynamic farming methods completely free of synthetic chemical fertilizers, the natural flavor matrix of each crop is preserved perfectly.</p>
+                <p class="secondary-p">Every lot is micro-roasted, balancing time and temp thresholds down to the second to release deep undertones of velvet cacao, macadamia cream, and stone fruit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="roasts-section" id="roasts">
+        <div class="section-header">
+            <span class="section-tag">Curated Selection</span>
+            <h2>The Craft Collection</h2>
+            <div class="luxury-divider central"></div>
+        </div>
+        
+        <div class="roasts-grid">
+            <div class="roast-item">
+                <div class="item-img-box">
+                    <img src="https://i.postimg.cc/VLCsBcfr/A-gorgeous-high-resolution-photo-of-a-box-bottom-coffee-bag.jpg" alt="Light Roast Coffee bag">
+                </div>
+                <h3>Highland Nectar</h3>
+                <span class="roast-type">Light Roast</span>
+                <p>Crisp citrus notes balanced with a smooth wild honey sweetness.</p>
+                <span class="price">$18.50</span>
+            </div>
+
+            <div class="roast-item">
+                <div class="item-img-box">
+                    <img src="https://i.postimg.cc/7LYfNQQP/Rich-Medium-Roast-Silky-Bean-Coffee-in-590g-Bags-Perfect-Morning-Routine.jpg" alt="Medium Roast Coffee bag">
+                </div>
+                <h3>Monsoon Canopy</h3>
+                <span class="roast-type">Medium Roast</span>
+                <p>Rich and well-rounded with rich toasted hazelnut and brown sugar notes.</p>
+                <span class="price">$19.00</span>
+            </div>
+
+            <div class="roast-item">
+                <div class="item-img-box">
+                    <img src="https://i.postimg.cc/pXbrSd1j/Rich-Dark-Roasted-Coffee-Luxury-Gift-Bag-Still-Life.jpg" alt="Dark Roast Coffee bag">
+                </div>
+                <h3>Obsidian Velvet</h3>
+                <span class="roast-type">Dark Roast</span>
+                <p>Bold, deeply robust flavor highlighting dark cacao and smoky molasses.</p>
+                <span class="price">$21.00</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="section-tag">Connect With Us</span>
+                <h2>Let's Talk Coffee</h2>
+                <p>Have questions about our sourcing, wholesale roasting arrangements, or custom flavor pairings? Reach out to our master roasters.</p>
+                <div class="contact-details">
+                    <p><strong>Roastery:</strong> Mall Road, Masoorie, Uttarakhand</p>
+                    <p><strong>Email:</strong> Roastery@Samabrew.com</p>
+                </div>
+            </div>
+            
+            <div class="contact-form-box">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="Sama Brew">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="SamaBrew@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Tell us how you brew..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-luxury full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SamaBrew Artisan Roasters. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
