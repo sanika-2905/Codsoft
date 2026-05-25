@@ -1,5 +1,6 @@
 # Web Development Projects:
 Task_1
+
 Level 1 to Level 3
 
 Welcome to my web development showcase repository! This project contains a series of three progressive web applications built to master frontend fundamentals, ranging from static semantic layouts to dynamic JavaScript applications.
@@ -8,16 +9,27 @@ Welcome to my web development showcase repository! This project contains a serie
 
 
 ├── Level-1-Portfolio/
+
 │   ├── index.html
+
 │   ├── style.css
+
 │   └── assets/          # Images, icons, and resume PDF
+
 ├── Level-2-Landing-Page/
+
 │   ├── index.html
+
 │   ├── style.css
+
 │   └── assets/          # Backgrounds, product images, and logos
+
 └── Level-3-Calculator/
+
     ├── index.html
+    
     ├── style.css
+    
     └── script.js
 
 🥇 Level 1: Personal Portfolio Website
